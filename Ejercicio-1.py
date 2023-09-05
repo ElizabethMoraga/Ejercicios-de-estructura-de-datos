@@ -10,22 +10,21 @@
 #-------------------------------------------------------------------------------
 
 # Ejercicio 1
-# Realizar una funcion que se llame area_rectangulo() que
-# devuelva el area del cuadrado a partir de su base y altura
+# Pedir al usuario que ingrese un nro impar
+# Mientras que el usuario no ingrese un nro impar se volvera
+# a pedir que ingrese el nro impar
+# debera indicar por pantalla si es impar
 
+# se ingresa los datos
+numero = int(input("Ingrese un numero impar: "))
 
-# Se le pide que se encuentre el valor area
+# se repetira hasta que usuario ingrese un numero impar
 
-def area_rectangulo(base, altura):
+while (numero % 2 -- 0) :
+    numero = int(input("ingrese un numero impar: "))
 
-# para encontrarla se multiplica base por altura
-
-    area=base*altura
-    return area
-
-# se ejecuta ya que tiene los valores del rectangulo
-
-print(area_rectangulo(2, 6))
+# Por pantalla se mostrara si es impar
+print("numero impar")
 
 
 
